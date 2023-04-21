@@ -219,6 +219,7 @@ app.get('/api/publicKey', (_req, res) => {
  * @method POST
  */
 app.post('/api/pushSubscription', (req, res) => {
+<<<<<<< HEAD
 	const user = getUser(req.headers);
 	const subscription = req.body.subscription;
 
@@ -243,6 +244,32 @@ app.post('/api/pushSubscription', (req, res) => {
 	} else {
 		res.status(500).end();
 	}
+=======
+  const user = getUser(req.headers);
+  const subscription = req.body.subscription;
+
+  // 해당 유저의 구독 정보 저장
+  const inserted = SimpleDatabase.upsert('user', {
+    where: {
+      id: user
+    },
+    data: {
+      subscription
+    }
+  });
+
+  if (inserted) {
+    if (subscription) {
+      logger.success(`${user}님이 푸시 서비스를 구독했습니다..`);
+    } else {
+      logger.success(`${user}님이 푸시 서비스 구독을 취소했습니다..`);
+    }
+
+    res.status(200).json({ user });
+  } else {
+    res.status(500).end();
+  }
+>>>>>>> 4df4c8c60e6dad65e5dcd9a7d72aa00427e8225c
 });
 
 // 서버 실행
