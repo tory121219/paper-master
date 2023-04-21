@@ -1,6 +1,7 @@
 {
-  "gcmKey": "AAAAfCtN2tI:APA91bEf0O7OxQRDxHZfOhsJQT_wB5J9xy1Y0WyMeNCn4GJHx_FlS9EDC3l1lWZpdOagUYORExpYdjvioz9j4rhNEvrBPdgPai7nlB0nFQURffGf0SM33pyKSeK3oViIsOgHm8lcLkkh",
-  "subject": "mailto:tory121219@gmail.com",
-  "vapidPublic": "BPtvJdhM0wzUvCqrfomYU5Uy7kcbNZccSH2jCJE5lX4LXyV4eCT4QF1IJslbFk_Oj3vf9CDqkXEIAvBeSo12p3A",
-  "vapidPrivate": "wMlQ4ISEkO6NGhTjM94g-NKlO0Tx2OiksvDSFUQzMqA"
+	"gcmKey": "AAAAfCtN2tI:APA91bEf0O7OxQRDxHZfOhsJQT_wB5J9xy1Y0WyMeNCn4GJHx_FlS9EDC3l1lWZpdOagUYORExpYdjvioz9j4rhNEvrBPdgPai7nlB0nFQURffGf0SM33pyKSeK3oViIsOgHm8lcLkkh",
+	"subject": "mailto:tory121219@gmail.com",
+	"vapidPublic": "BPtvJdhM0wzUvCqrfomYU5Uy7kcbNZccSH2jCJE5lX4LXyV4eCT4QF1IJslbFk_Oj3vf9CDqkXEIAvBeSo12p3A",
+	"vapidPrivate": "wMlQ4ISEkO6NGhTjM94g-NKlO0Tx2OiksvDSFUQzMqA",
+	"url": "https://port-0-paper-master-3kzv72nlesan42x.sel3.cloudtype.app/"
 }
