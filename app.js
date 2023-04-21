@@ -234,9 +234,9 @@ app.post('/api/pushSubscription', (req, res) => {
 
   if (inserted) {
     if (subscription) {
-      logger.success(`${user}님이 푸시 서비스를 구독했습니다.`);
+      logger.success(`${user}님이 푸시 서비스를 구독했습니다..`);
     } else {
-      logger.success(`${user}님이 푸시 서비스 구독을 취소했습니다.`);
+      logger.success(`${user}님이 푸시 서비스 구독을 취소했습니다..`);
     }
 
     res.status(200).json({ user });
