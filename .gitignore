@@ -66,5 +66,5 @@ typings/
 # Babel build results
 workspace/dist
 
-#push info
-config/
+#push info - 중요정보
+#config/
